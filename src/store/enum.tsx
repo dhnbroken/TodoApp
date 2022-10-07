@@ -1,0 +1,17 @@
+
+export enum ActionKind {
+  GETJOB = 'GETJOB',
+  SETJOB = 'SETJOB',
+  ADDJOB = 'ADDJOB',
+  DELETEJOB = 'DELETEJOB',
+  EDITJOB = 'EDITJOB',
+  UPDATEJOB = 'UPDATEJOB',
+  CHANGESTATUS = 'CHANGESTATUS',
+}
+
+export enum Status {
+  ALL = 'ALL',
+  PENDING = 'PENDING',
+  COMPLETED = 'COMPLETED',
+  WARNING = 'WARNING'
+}
